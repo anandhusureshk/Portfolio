@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    width: 85%;
+    margin-top: 10px;
+}
+li{
+    display: inline;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 400;
+}
+a:hover{
+    color: rgb(212, 116, 6);
+}
+.icons i{
+    margin-left: 50px;
+    height: 15px;
+    width: 15px;
+}
+.heading{
+    font-size: 50px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+#name{
+    color: rgb(212, 116, 6);
+}
+/* #home{
+    margin-left: 100px;
+    margin-top: 100px;
+} */
+.homesection{
+    margin-left: 10%;
+    margin-top: 13%;
+}
+.cv{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 15px;
+    margin-top: 30px;
+    display: inline-block;
+
+}
+.images{
+    height: 80%;
+    width: 40%;
+    position: absolute;
+    right: 30px;
+    bottom: 0;
+}
+.imagesgroup{
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: bottom 1s,left 1s;
+    bottom: 0;
+}
+.images:hover #shape{
+    bottom: 70px;
+}
+.images:hover #girl{
+    left: 40%;
+}
+.contents{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 50px;
+}
+.aboutsection{
+    margin-left: 10%;
+    margin-top: 250px;
+    margin-right: 100px;
+}
+.abouthead{
+    font-weight: 600;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.aboutname{
+    text-align: center;
+    padding-left: 10px;
+    font-weight: 500;
+}
+.icons{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: -50px;
+}
+.students_picture img{
+    width: 400px;
+    height: 350px;
+}
+.headings{
+    text-align: center;
+}
+.mainhead{
+    font-size: 30px;
+}
+.subhead{
+    color: green;
+}
+i{
+    font-size: medium;
+}
+#skill{
+    margin-top: 5%;
+}
+.skillhead{
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.skilldetails{
+    margin: 0 5% 5% 10%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.programs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 14px 0; 
+}
+.bar{
+    width: 100%;
+    height: 8px;
+    background-color: black;
+    border-radius: 55px;
+    position: absolute;
+    bottom: 0;
+}
+.skillimage img{
+
+    width: 90%;
+    margin-left: 50px;
+}
+.skillpercentage{
+    margin-top: 50px;
+}
+.html{
+    background-color: orange;
+    width: 90%;
+}
+.css{
+    background-color: orange;
+    width: 80%;
+}
+.bootstrap{
+    background-color: orange;
+    width: 75%;
+}
+.react{
+    background-color: orange;
+    width: 70%;
+}
+.contacthead{
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.contacticons{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.contactmedias{
+    color:black;
+    /* padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px; */
+}
+.iconbackground:hover{
+    background-image: linear-gradient(orange,yellow);
+}
+.iconbackground{
+    margin: 0 20px 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 5px;
+}
+.iconbackground:hover i{
+    color: white;
+    animation: tags 0.5s ;
+}
+@keyframes tags{
+    50%{
+        transform: rotate(30deg);
+    }
+
+    100%{
+        transform: rotate(-30deg);
+    }
+}
+#footerparagraph{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: 300px;
+}
+#up_arrow a{
+    margin: 0 20px 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    padding: 5px;
+    background-image: linear-gradient(orange,yellow);
+    color: rgb(4, 113, 163);
+    float: right;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+.link{
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 900;
+}
